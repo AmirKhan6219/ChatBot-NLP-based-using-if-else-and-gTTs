@@ -15,9 +15,15 @@ The gTTS API supports several languages including English, Hindi, Tamil, French,
 # Steps used in this project
 # 1. Record the Audio and return it as String
      Recording is done using microphone and send to the google speech recognition engine to recognize the audio.
-     Error occurs when google could not understand what was said, such as UnknownvalueError and RequestError 
+     Error occurs when google could not understand what was said, such as UnknownvalueError and RequestError. 
      
-# 2. 
+# 2. Convert the tetx into Audio
+     gTTs is used to convert the text into audio by setting the language='English' and slow='False'.
+     Here slow='False' means to speed-up.
+     Save the coverted audio to a file named assistant_response.mp3.
+     Play the converted file.
+     
+     
    
 
 
