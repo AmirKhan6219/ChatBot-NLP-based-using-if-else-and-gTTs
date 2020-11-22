@@ -20,8 +20,35 @@ The gTTS API supports several languages including English, Hindi, Tamil, French,
 # 2. Convert the tetx into Audio
      gTTs is used to convert the text into audio by setting the language='English' and slow='False'.
      Here slow='False' means to speed-up.
-     Save the coverted audio to a file named assistant_response.mp3.
+     Save the converted audio to a file named assistant_response.mp3.
      Play the converted file.
+     
+# 3. Wake words or phrase
+     A list of wakes words are provided in ordered to wake the 'bot' such as Hey Bot, Hi Bot, etc.
+     Returning True when user said the wake words else False.
+ 
+# 4. Get the date
+     Get the current date based on the user input by using the datetime function.
+     
+# 5. Return random greeting response
+     return a randomly chosen response, if the user input is greeting.
+     greeting input as 'hey', 'hi'.
+     Randomly Response as 'hello', 'hey there'.
+
+# 6. Get the answer about the person and also city name asked by the user
+     Get the answer from wikipedia which was asked from the user.
+     Example1 : Who is Virat Kohali?
+     Example2 : Where is Mumbai city?
+     Wikipedia will search it and return.
+  
+# 7. Check conditions if wake word are True
+     If Wake Word are True
+     Repeats steps based on the user input text and check all the conditions
+     
+# Technologies used
+  1. Python
+  2. Machine Learning
+  
      
      
    
