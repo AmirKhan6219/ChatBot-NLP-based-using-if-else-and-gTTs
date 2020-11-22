@@ -1,2 +1,18 @@
 # CHATBOT(Deep Learning based using if-else and gTTs)
-kankna
+1. A chatbot is an artificial intelligence (AI) software that can simulate a conversation (or a chat) with a user in natural language through 
+   messaging applications, websites, mobile apps or through the telephone.
+2. Users communicate with these tools using a chat interface or via voice, just like they would converse with another person. Chatbots interpret the words given to them by a 
+   person and provide a pre-set answer.
+3. Example: Amazon Alexa, Google Assistant, Ernest, Buddy, etc.
+
+# Libraries
+1. SpeechRecognition
+2. PyAudio
+3. gTTs 
+Google Text to Speech API commonly known as the gTTS API is a very easy to use tool which converts the text entered, into audio which can be saved as a mp3 file.
+The gTTS API supports several languages including English, Hindi, Tamil, French, German and many more.
+
+# Steps used in this project
+
+
+
